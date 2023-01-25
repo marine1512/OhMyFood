@@ -17,6 +17,12 @@ div.entete
     width: 100%;
     height: 19px;
     margin-top: 26px;
+        margin-bottom: -29px;
+}
+
+.entete img
+{
+    display: flex;
 }
 
 .entete a 
@@ -26,11 +32,14 @@ div.entete
     text-decoration: none;
     color: black;
     margin-left: 15px;
+    position: relative;
 }
 .entete p
 {
     display: flex;
     margin-right: 266px;
+    position: absolute;
+    left: 44%;
 }
 
 .image img
@@ -64,7 +73,9 @@ div.entete
 .icone
 {
     display: flex;
-    margin-left: 135px;
+    position: absolute;
+    right: 7%;
+    align-items: center;
 }
 
 .heart-vide
@@ -143,6 +154,15 @@ To {
     margin-bottom: 0;
 }
 
+.cards:hover h3
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 10rem;
+    display: block;
+    overflow: hidden;
+}
+
 .cards p 
 {
     margin: 0;
@@ -151,12 +171,22 @@ To {
     padding-right: 15px;
 }
 
+.cards:hover p
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 12rem;
+    display: block;
+    overflow: hidden;
+}
+
 .price
 {
-    margin-left: 291px;
-    margin-top: -28px;
+    right:3rem;
+    top:2rem;
+    position:absolute;
     background-color: #FFFFFF;
-    
+    transition:.5s all;
 }
 
 .valide 
@@ -165,15 +195,18 @@ To {
     cursor: pointer;
     font-size: 3rem;
     padding: 0.45rem 1rem;
-    width: fit-content;
+    width: 0px;
     border-radius: 0 15px 15px 0;
     position: absolute;
-    margin-left: 336px;
+    right:-10rem;
+    transition:.5s all;
+    overflow: hidden;
   }
  .cards:hover .valide
 {
-
-  animation: slide-left 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) forwards
+    width:fit-content;
+    transition:.5s all;
+    right:0px;
 }
 
 @keyframes slide-left {
@@ -189,20 +222,9 @@ To {
 }
 .cards:hover .price
 {
-    margin-left: 291px;
-    animation: slide-left 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) forwards
-}
-
-@keyframes slide-left {
-  0% {
-            transform: translateX(0);
-  }
-  50% {
-            transform: translateX(-80px);
-  }
-  100% {
-      transform: translateX(0);
-}
+    right:6rem;
+    position:absolute;
+    transition:.5s all;
 }
   
 .fa-circle-check
@@ -212,19 +234,13 @@ To {
 .cards:hover .fa-circle-check
 {
     animation-delay: 5s;
-      animation: rotate-center 1s ease-in-out reverse forwards
+    animation: rotate-center 1s ease-in-out reverse forwards
 }
+
 @keyframes rotate-center {
-    0% {
-        transform: rotate(0);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-    50% {
-        transform: rotate(0);
-    }
-  }
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
 
 .gradientbutton
 {
@@ -297,18 +313,18 @@ div.Footer > ul > li
 {
    .Footer
    {
-    display: flex;
-    flex-direction: row-reverse;
-    padding-left: 23px;
-    padding-right: 61px;
-    padding: 0;
-    padding-top: 70px;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 23px;
+        padding-right: 61px;
+        padding: 0;
    }
     .Footer ul
     {
         flex-direction: row;
         padding: 0;
         gap: 66px;
+        margin-top: 94px;
     }
     .Footer p
     {
@@ -316,34 +332,33 @@ div.Footer > ul > li
         margin-left: 69px;
         display: flex;
         align-items: center;
-        padding-bottom: 199px;
     }
 }
 
 /* DESKTOP */
+
 @media all and (min-width: 1024px)
 {
+
     .Footer
     {
-     display: flex;
-     flex-direction: row-reverse;
-     padding-left: 23px;
-     padding-right: 61px;
-     padding: 0;
-     padding-top: 70px;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 23px;
+        padding-right: 61px;
+        padding: 0;
     }
      .Footer ul
-     {
-         flex-direction: row;
-         padding: 0;
-         gap: 66px;
-     }
+    {
+        flex-direction: row;
+        padding: 0;
+        gap: 66px;
+        margin-top: 94px;
+    }
      .Footer p
-     {
+    {
         margin-right: 31px;
         margin-left: 69px;
         display: flex;
-        align-items: center;
-        padding-bottom: 199px;
-     }
+    }
 }

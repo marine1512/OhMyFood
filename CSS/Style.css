@@ -259,7 +259,8 @@ header
 .icone
 {
     display: flex;
-    margin-left: 267px;
+    right: -84%;
+    position: relative;
 }
 
 .heart-vide

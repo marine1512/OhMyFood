@@ -73,7 +73,9 @@ div.entete
 .icone
 {
     display: flex;
-    margin-right: 56px;
+    position: absolute;
+    right: 7%;
+    align-items: center;
 }
 
 
@@ -227,7 +229,7 @@ To {
 .cards:hover .fa-circle-check
 {
     animation-delay: 5s;
-      animation: rotate-center 1s ease-in-out reverse forwards
+    animation: rotate-center 1s ease-in-out reverse forwards
 }
 
 @keyframes rotate-center {
@@ -265,7 +267,7 @@ To {
     height: 197px;
     color: #FFFFFF;
     width: 100%;
-    margin-top: 1159px
+    margin-top: 1159px;
 }
 
 .Footer img
@@ -306,18 +308,18 @@ div.Footer > ul > li
 {
    .Footer
    {
-    display: flex;
-    flex-direction: row-reverse;
-    padding-left: 23px;
-    padding-right: 61px;
-    padding: 0;
-    padding-top: 70px;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 23px;
+        padding-right: 61px;
+        padding: 0;
    }
     .Footer ul
     {
         flex-direction: row;
         padding: 0;
         gap: 66px;
+        margin-top: 94px;
     }
     .Footer p
     {
@@ -325,34 +327,33 @@ div.Footer > ul > li
         margin-left: 69px;
         display: flex;
         align-items: center;
-        padding-bottom: 199px;
     }
 }
 
 /* DESKTOP */
+
 @media all and (min-width: 1024px)
 {
+
     .Footer
     {
-     display: flex;
-     flex-direction: row-reverse;
-     padding-left: 23px;
-     padding-right: 61px;
-     padding: 0;
-     padding-top: 70px;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 23px;
+        padding-right: 61px;
+        padding: 0;
     }
      .Footer ul
-     {
-         flex-direction: row;
-         padding: 0;
-         gap: 66px;
-     }
+    {
+        flex-direction: row;
+        padding: 0;
+        gap: 66px;
+        margin-top: 94px;
+    }
      .Footer p
-     {
+    {
         margin-right: 31px;
         margin-left: 69px;
         display: flex;
-        align-items: center;
-        padding-bottom: 199px;
-     }
+    }
 }
