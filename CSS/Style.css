@@ -3,7 +3,7 @@
 html, body
 {
     font-family: 'Roboto';
-    max-width: 375px;
+    min-width: 375px;
     margin: 0;
 }
 
