@@ -85,7 +85,6 @@
         width: 21.68px;
         height: 21px;
         font-size: 20px;
-        transition: all 3s fowards;
     }
 
     .heart-plein
@@ -95,7 +94,6 @@
         width: 21.68px;
         height: 21px;
         font-size: 20px;
-        transition: all 3s fowards;
     }
 
     .heart-plein:hover
@@ -103,8 +101,6 @@
         opacity: 100%;
         background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
         background-clip: border-box;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
         
     }
 
