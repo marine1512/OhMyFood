@@ -354,7 +354,7 @@
 
 @media all and (min-width: 768px) and (max-width: 1023px)
 {
-    .Fonctionnement > ul>
+    .Fonctionnement > ul
     {
         width: 98%;
         flex-direction: row;
