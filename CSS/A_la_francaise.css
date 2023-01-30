@@ -33,7 +33,6 @@
     .entete a 
     {
         display: flex;
-        width: 100%;
         text-decoration: none;
         color: black;
         margin-left: 15px;
@@ -55,7 +54,6 @@
         object-fit: cover;
         position: relative;
         top: 35px;
-        
     }
 
     .menu
@@ -122,6 +120,7 @@
     {
         border-bottom: 3px solid #99E2D0;
         width: 31px;
+        margin-left: 15px;
     }
 
     .menu-cards
@@ -145,6 +144,7 @@
         animation-name: apparition;
         animation-duration: 3s;
         box-shadow: 2px 2px 2px #d9d9d9;
+        margin-left: 15px;
     }
     
     @keyframes apparition
@@ -287,7 +287,7 @@
         height: 197px;
         color: #FFFFFF;
         width: 100%;
-        margin-top: 1249px
+        margin-top: 1250px;
     }
 
     .Footer img
@@ -314,6 +314,11 @@
     {
         display: flex;
         gap: 15px;
+    }
+
+    .Footer > ul > li > i 
+    {
+        margin-right: 7px;
     }
 
     .Footer a
@@ -354,7 +359,7 @@
 
 /* DESKTOP */
 
-@media all and (min-width: 1024px)
+@media all and (min-width: 1024px) and (max-width: 1920px)
 {
 
     .Footer

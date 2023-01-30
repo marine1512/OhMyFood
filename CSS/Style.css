@@ -377,7 +377,7 @@
 
     .Restaurants > div > div.Card
     {
-        width: 48%;
+        width: 24%;
     }    
 
    .Footer
@@ -408,7 +408,7 @@
 
 /* DESKTOP */
 
-@media all and (min-width: 1024px)
+@media all and (min-width: 1024px) and (max-width: 1920px)
 {
     .Fonctionnement
     {
