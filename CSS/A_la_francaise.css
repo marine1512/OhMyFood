@@ -22,9 +22,12 @@
         margin-bottom: -29px;
     }
 
-    .entete img
-    {
+    div.entete > div.enteteLogo{
         display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: .5rem;
     }
 
     .entete a 
@@ -376,5 +379,6 @@
         margin-right: 31px;
         margin-left: 69px;
         display: flex;
+        padding-top: 70px;
     }
 }

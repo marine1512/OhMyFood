@@ -22,7 +22,9 @@
         border-bottom: 10px solid #9356DC;
         animation: round 3s linear forwards;
         position: absolute;
-        margin: 50%;
+        left:50%;
+        top:50%;
+        transform: translate(-50%, -50%);
     }
     
     @keyframes round 
@@ -426,7 +428,7 @@
 
     .Restaurants > div > div.Card
     {
-        width: 48%;
+        width: 24%;
     } 
 
     .Footer
