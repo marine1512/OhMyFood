@@ -1,4 +1,4 @@
-/* MOBBILE */
+/* MOBILE */
 
     body
     {
@@ -22,7 +22,8 @@
         margin-bottom: -29px;
     }
 
-    div.entete > div.enteteLogo{
+    div.entete > div.enteteLogo
+    {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -32,12 +33,21 @@
 
     .entete a 
     {
+        display: flex;
         text-decoration: none;
         color: black;
-        left:1rem;
-        top:1.5rem;
-        position: absolute;
+        margin-left: 15px;
+        position: relative;
     }
+
+    .entete p
+    {
+        display: flex;
+        margin-right: 266px;
+        position: absolute;
+        left: 44%;
+    }
+
     .image img
     {
         display: flex;
@@ -57,7 +67,6 @@
         flex-direction: column;
         position: absolute;
         box-shadow: 2px 2px 2px #d9d9d9;
-        margin-top:-4rem;
     }
 
     .menu h2
@@ -96,7 +105,6 @@
     {
         opacity: 100%;
         background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
-        background-clip: border-box;
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
@@ -145,7 +153,7 @@
         transform: translateY(20px);
     }
     To {
-        opacity: 100%;
+        opacity: 1;
         transform: translateY(0px);
     }
     }
@@ -213,8 +221,9 @@
 
     .cards:hover .price
     {
-        margin-left: 291px;
-        animation: slide-left 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) forwards
+        right:6rem;
+        position:absolute;
+        transition:.5s all;
     }
 
     .fa-circle-check
@@ -307,6 +316,34 @@
 
 @media all and (min-width: 768px) and (max-width: 1023px)
 {
+    .menu
+    {
+        width: 67%;
+        margin-left: 369px;
+    }
+    
+    .menu h2
+    {
+        justify-content: space-around;
+    }
+
+    .icone
+    {
+        right: 34%;
+        top: 29px;
+    }
+
+    .menu-cards 
+    {
+        padding-left: 138px;
+        padding-right: 115px;
+    }
+
+    .restaurants > .div
+    {
+        padding-left: 227px;
+    }
+
    .Footer
    {
         display: flex;
@@ -335,8 +372,30 @@
 
 /* DESKTOP */
 
-@media all and (min-width: 1024px) and (max-width: 1920px)
+@media all and (min-width: 1024px)
 {
+    .menu
+    {
+        width: 67%;
+        margin-left: 369px;
+    }
+
+    .menu h2
+    {
+        justify-content: space-around;
+    }
+
+    .icone
+    {
+        right: 34%;
+        top: 29px;
+    }
+
+    .menu-cards 
+    {
+        padding-left: 138px;
+        padding-right: 115px;
+    }
 
     .Footer
     {
@@ -346,6 +405,7 @@
         padding-right: 61px;
         padding: 0;
     }
+
      .Footer ul
     {
         flex-direction: row;

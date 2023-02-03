@@ -22,7 +22,8 @@
         margin-bottom: -29px;
     }
 
-    div.entete > div.enteteLogo{
+    div.entete > div.enteteLogo
+    {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -105,7 +106,6 @@
     {
         opacity: 100%;
         background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
-        background-clip: border-box;
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
@@ -155,7 +155,7 @@
         transform: translateY(20px);
     }
     To {
-        opacity: 100%;
+        opacity: 1;
         transform: translateY(0px);
     }
     }
@@ -319,6 +319,34 @@
 
 @media all and (min-width: 768px) and (max-width: 1023px)
 {
+    .menu
+    {
+        width: 67%;
+        margin-left: 369px;
+    }
+    
+    .menu h2
+    {
+        justify-content: space-around;
+    }
+
+    .icone
+    {
+        right: 34%;
+        top: 29px;
+    }
+
+    .menu-cards 
+    {
+        padding-left: 138px;
+        padding-right: 115px;
+    }
+
+    .restaurants > .div
+    {
+        padding-left: 227px;
+    }
+    
    .Footer
    {
         display: flex;
@@ -347,8 +375,30 @@
 
 /* DESKTOP */
 
-@media all and (min-width: 1024px) and (max-width: 1920px)
+@media all and (min-width: 1024px)
 {
+    .menu
+    {
+        width: 67%;
+        margin-left: 369px;
+    }
+
+    .menu h2
+    {
+        justify-content: space-around;
+    }
+
+    .icone
+    {
+        right: 34%;
+        top: 29px;
+    }
+
+    .menu-cards 
+    {
+        padding-left: 138px;
+        padding-right: 115px;
+    }
 
     .Footer
     {
