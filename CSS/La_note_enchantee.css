@@ -109,7 +109,7 @@
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
-        transition:.2s all;
+        transition:.6s all;
     }
 
     article
@@ -275,7 +275,7 @@
         height: 197px;
         color: #FFFFFF;
         width: 100%;
-        margin-top: 1336px;
+        margin-top: 1275px;
     }
 
     .Footer img
@@ -319,35 +319,7 @@
 
 @media all and (min-width: 768px) and (max-width: 1023px)
 {
-    .menu
-    {
-        width: 67%;
-        margin-left: 369px;
-    }
-    
-    .menu h2
-    {
-        justify-content: space-around;
-    }
-
-    .icone
-    {
-        right: 34%;
-        top: 29px;
-    }
-
-    .menu-cards 
-    {
-        padding-left: 138px;
-        padding-right: 115px;
-    }
-
-    .restaurants > .div
-    {
-        padding-left: 227px;
-    }
-    
-   .Footer
+    .Footer
    {
         display: flex;
         flex-direction: row-reverse;
@@ -360,14 +332,14 @@
     {
         flex-direction: row;
         padding: 0;
-        gap: 66px;
+        gap: 22px;
         margin-top: 94px;
     }
 
     .Footer p
     {
         margin-right: 31px;
-        margin-left: 69px;
+        margin-left: 7px;
         display: flex;
         align-items: center;
     }

@@ -286,7 +286,7 @@
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
-        transition:.2s all;
+        transition:.6s all;
     }
 
     .new
@@ -360,36 +360,6 @@
 
 @media all and (min-width: 768px)
 {
-    .Fonctionnement
-    {
-        display: flex;
-        flex-direction: column;
-        margin-left: 381px;
-        margin-right: 551px;
-    }
-
-    .Fonctionnement > ul
-    {
-        width: 98%;
-        flex-direction: row;
-        gap: 47px;
-    }
-
-    .Restaurants h2
-    {
-        padding-left: 244px;
-    }
-
-    .Restaurants > div > div.Card
-    {
-        width: 24%;
-    }    
-
-    .Restaurants > div
-    {
-        padding-left: 227px;
-    }
-
    .Footer
    {
     display: flex;
