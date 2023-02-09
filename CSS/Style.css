@@ -2,14 +2,9 @@
 
     html, body
     {
-        font-family: 'Roboto';
-        min-width: 375px;
+        font-family: 'Roboto', sans-serif;
+        min-width: 200px;
         margin: 0;
-    }
-
-    h1,h2,h3,h4
-    {
-        font-family: 'Shrikhand';
     }
 
     .spin
@@ -57,7 +52,7 @@
     .Lieu
     {
         background-color: #EAEAEA;
-        font-weight: 500;
+        font-size: 16px;
         padding: 1rem 0;
         display: flex;
         align-items: center;
@@ -91,27 +86,39 @@
         margin: 15px 15px 0 15px;
     }
 
+    .Reservez-texte h1
+    {
+        margin: 26px 32px 10px 32px;
+    }
+
     .gradientbutton
     {
         color: #FFFF;
-        background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+        background: linear-gradient(356deg, #9356DC -5.2%, #FF79DA 110.74%);
+        box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
         border-radius: 25px;
         padding: 15px;
         margin-bottom: 20px;
-        padding: 1.5rem 3rem;
+        padding: 0.3rem 1rem;
         text-align: center;
         width: min-content;
         white-space: nowrap;
-        margin: 4rem auto;
+        margin: 1rem auto;
+        margin-bottom: 57px;
         border-radius: 30px;
         box-shadow: 2px 2px 2px #d9d9d9;
+        transition:.6s all;
     }
 
     .gradientbutton:hover
     {
-        background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+        background: linear-gradient(356deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(356deg, #9356DC -5.2%, #FF79DA 110.74%);
         box-shadow: 10px 5px 5px #d9d9d9;
+    }
+
+    .gradientbutton p
+    {
+        font-size: 16px;
     }
 
     /* FONCTIONNEMENT */
@@ -141,21 +148,13 @@
         gap: 2rem; 
         padding: 16px 0;
         margin-left: -16px;
+        transition:.6s all;
     }
 
-    .card-violet
+    .card:hover
     {
-        list-style-type: none;
         background: #F5EDFF;
         box-shadow:10px 5px 5px #d9d9d9;
-        border-radius: 20px;
-        width: 100%;
-        margin-bottom: 43px;
-        display: flex;
-        align-items: center;
-        gap: 2rem;
-        padding: 16px 0;
-        margin-left: -16px;
     }
 
     .cercle
@@ -173,7 +172,12 @@
 
     }
 
-    .fa-store
+    .grey
+    {
+        color: #7E7E7E;
+    }
+
+    .card:hover .grey
     {
         color: #9356DC;
     }
@@ -225,6 +229,7 @@
         margin-left: 15px;
         display: flex;
         flex-direction: column;
+        transition:.6s all;
     }
 
     .Card:hover
@@ -251,13 +256,13 @@
 
     .card-texte h3
     {
-        margin-bottom: 0;
+        margin-bottom: -15px;
     }
 
     .icone
     {
         display: flex;
-        right: -84%;
+        right: -80%;
         position: relative;
     }
 
@@ -266,49 +271,46 @@
         position: relative;
         width: 21.68px;
         height: 21px;
-        font-size: 20px;
+        font-size: 31px;
     }
 
     .heart-plein
     {
         position: absolute;
         opacity: 0%;
-        width: 21.68px;
-        height: 21px;
-        font-size: 20px;
+        width: 100%;
+        font-size: 31px;
+        transition:.6s all;
     }
 
     .heart-plein:hover
     {
         opacity: 100%;
-        background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+        background: linear-gradient(181deg, #9356DC -5.2%, #FF79DA 110.74%);
         background-clip: border-box;
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
-        transition:.6s all;
+
     }
 
-    .new
+    .new, .new2
     {
+        width: 80px;
+        height: 29px;
         position: absolute;
-        left: 67%;
+        left: 68%;
         Top: 7%;
         background-color: #99E2D0;
-        color: #008766;
-        font-size: 22px;
-        padding: 6px;
+        padding: 3px 10px;
     }
 
-    .new2
+    .new p, .new2 p
     {
-        position: absolute;
-        left: 67%;
-        Top: 7%;
-        background-color: #99E2D0;
         color: #008766;
-        font-size: 22px;
-        padding: 6px;
+        margin-left: 8px;
+        font-size: 17px;
+        margin-top: 3px;
     }
 
     /* FOOTER */
@@ -358,7 +360,7 @@
 
 /* TABLETTE */
 
-@media all and (min-width: 768px)
+@media all and (min-width: 768px) and (max-width: 1569px)
 {
    .Footer
    {
@@ -388,7 +390,7 @@
 
 /* DESKTOP */
 
-@media all and (min-width: 1024px)
+@media all and (min-width: 1930px)
 {
     .Fonctionnement
     {
