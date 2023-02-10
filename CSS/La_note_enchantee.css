@@ -146,6 +146,11 @@ article {
 
 .cards h3 {
     margin-bottom: 0;
+    text-overflow: ellipsis;
+    width: 10rem;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .cards:hover h3 {
