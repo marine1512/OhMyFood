@@ -291,7 +291,7 @@ div.Footer>ul>li {
 
 /* TABLETTE */
 
-@media all and (min-width: 768px) and (max-width: 1023px) {
+@media all and (min-width: 768px) and (max-width: 1929px) {
     .Footer {
         display: flex;
         flex-direction: row-reverse;
@@ -317,7 +317,7 @@ div.Footer>ul>li {
 
 /* DESKTOP */
 
-@media all and (min-width: 1024px) {
+@media all and (min-width: 1930px) {
     .menu {
         width: 67%;
         margin-left: 369px;
