@@ -323,7 +323,7 @@ main {
 
 /* TABLETTE */
 
-@media all and (min-width: 768px) and (max-width: 1569px) {
+@media all and (min-width: 768px) and (max-width: 1929px) {
     
     .Restaurants > .Card > .card-texte > .icone
     {
@@ -334,7 +334,7 @@ main {
     {
         left: 84%;
     }
-    
+
     .Footer {
         display: flex;
         flex-direction: row-reverse;
