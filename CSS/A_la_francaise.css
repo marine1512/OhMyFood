@@ -11,6 +11,7 @@ main {
 
 h2 {
     font-family: 'Shrikhan';
+    font-style: italic;
 }
 
 div.entete {
@@ -75,7 +76,7 @@ div.entete>div.enteteLogo {
     position: absolute;
     right: 7%;
     align-items: center;
-    top: 38px;
+    top: 20px;
 }
 
 .heart-vide {
