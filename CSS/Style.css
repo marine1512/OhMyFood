@@ -324,6 +324,17 @@ main {
 /* TABLETTE */
 
 @media all and (min-width: 768px) and (max-width: 1569px) {
+    
+    .Restaurants > .Card > .card-texte > .icone
+    {
+        right: -90%;
+    }
+    
+    .new, .new2
+    {
+        left: 84%;
+    }
+    
     .Footer {
         display: flex;
         flex-direction: row-reverse;
