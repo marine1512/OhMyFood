@@ -212,7 +212,7 @@ main {
 
 .Card:hover {
     box-shadow: 10px 5px 5px #d9d9d9;
-    filter: brightness(1.1);
+    filter: brightness(1.3);
 }
 
 .Card img {
