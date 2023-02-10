@@ -1,385 +1,343 @@
 /* MOBILE */
 
-    html, body
-    {
-        font-family: 'Roboto', sans-serif;
-        min-width: 200px;
-        margin: 0;
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    min-width: 200px;
+    margin: 0;
+}
+
+.spin {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #FF79DA;
+    border-top: 10px solid #99E2D0;
+    border-bottom: 10px solid #9356DC;
+    animation: round 3s linear forwards;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes round {
+    0% {
+        transform: rotate(0deg);
     }
 
-    .spin
-    {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        border: 10px solid #FF79DA;
-        border-top: 10px solid #99E2D0;
-        border-bottom: 10px solid #9356DC;
-        animation: round 3s linear forwards;
-        position: absolute;
-        left:50%;
-        top:50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    @keyframes round 
-    {
-        0% {
-        transform: rotate(0deg);
-        }
-        100% {
+    100% {
         transform: rotate(360deg);
         opacity: 0;
-        }
     }
+}
 
-    /* HEADER */
+/* HEADER */
 
-    header
-    {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-    }
+header {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
 
-    .Logo
-    {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
+.Logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
-    .Lieu
-    {
-        background-color: #EAEAEA;
-        font-size: 16px;
-        padding: 1rem 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 0.5rem;
-        width: 100%;
-        box-shadow: inset 0px 3px rgb(0 0 0 / 15%);
-    }
+.Lieu {
+    background-color: #EAEAEA;
+    font-size: 16px;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    box-shadow: inset 0px 3px rgb(0 0 0 / 15%);
+}
 
-    .text
-    {
-        margin-bottom: 2em;
-    }
+main {
+    overflow: hidden;
+}
 
-    /* RESERVEZ */
+.text {
+    margin-bottom: 2em;
+}
 
-    .Reservez
-    {
-        background-color: #F7F7F7;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
-    }
+/* RESERVEZ */
 
-    .Reservez-texte
-    {
-        display: flex;
-        flex-direction: column;
-        margin: 15px 15px 0 15px;
-    }
+.Reservez {
+    background-color: #F7F7F7;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
-    .Reservez-texte h1
-    {
-        margin: 26px 32px 10px 32px;
-    }
+.Reservez-texte {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 15px 0 15px;
+}
 
-    .gradientbutton
-    {
-        color: #FFFF;
-        background: linear-gradient(356deg, #9356DC -5.2%, #FF79DA 110.74%);
-        box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
-        border-radius: 25px;
-        padding: 15px;
-        margin-bottom: 20px;
-        padding: 0.3rem 1rem;
-        text-align: center;
-        width: min-content;
-        white-space: nowrap;
-        margin: 1rem auto;
-        margin-bottom: 57px;
-        border-radius: 30px;
-        box-shadow: 2px 2px 2px #d9d9d9;
-        transition:.6s all;
-    }
+.Reservez-texte h1 {
+    margin: 26px 32px 10px 32px;
+}
 
-    .gradientbutton:hover
-    {
-        background: linear-gradient(356deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(356deg, #9356DC -5.2%, #FF79DA 110.74%);
-        box-shadow: 10px 5px 5px #d9d9d9;
-    }
+.gradientbutton {
+    color: #FFFF;
+    background: linear-gradient(356deg, #9356DC -5.2%, #FF79DA 110.74%);
+    padding: 0.3rem 1rem;
+    text-align: center;
+    width: min-content;
+    white-space: nowrap;
+    margin: 1rem auto;
+    margin-bottom: 57px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px #d9d9d9;
+    transition: .6s all;
+}
 
-    .gradientbutton p
-    {
-        font-size: 16px;
-    }
+.gradientbutton:hover {
+    background: linear-gradient(356deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(356deg, #9356DC -5.2%, #FF79DA 110.74%);
+    box-shadow: 10px 5px 5px #d9d9d9;
+}
 
-    /* FONCTIONNEMENT */
+.gradientbutton p {
+    font-size: 16px;
+}
 
-    .Fonctionnement ul{
-        display: flex;
-        flex-grow: 1;
-        flex:100%;
-        flex-direction: column;
-    }
+/* FONCTIONNEMENT */
 
-    .Fonctionnement h2
-    {
-        margin: 40px 0 27px 37px;
-    }
+.Fonctionnement ul {
+    display: flex;
+    flex-grow: 1;
+    flex: 100%;
+    flex-direction: column;
+}
 
-    .card
-    {
-        list-style-type: none;
-        background: #F7F7F7;
-        box-shadow:10px 5px 5px #d9d9d9;
-        border-radius: 20px;
-        width: 100%;
-        margin-bottom: 43px;
-        display: flex;
-        align-items: center;
-        gap: 2rem; 
-        padding: 16px 0;
-        margin-left: -16px;
-        transition:.6s all;
-    }
+.Fonctionnement h2 {
+    margin: 40px 0 27px 37px;
+}
 
-    .card:hover
-    {
-        background: #F5EDFF;
-        box-shadow:10px 5px 5px #d9d9d9;
-    }
+.card {
+    list-style-type: none;
+    background: #F7F7F7;
+    box-shadow: 10px 5px 5px #d9d9d9;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 43px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 16px 0;
+    margin-left: -16px;
+    transition: .6s all;
+}
 
-    .cercle
-    {
-        color: #FFFFFF;
-        background-color: #9356DC;
-        border-radius: 100%;
-        padding: 13px;
-        padding-top: 8px;
-        width: 33px;
-        height: 35px;
-        box-sizing: border-box;
-        margin-right: 5px;
-        margin-left:-10px;
+.card:hover {
+    background: #F5EDFF;
+    box-shadow: 10px 5px 5px #d9d9d9;
+}
 
-    }
+.cercle {
+    color: #FFFFFF;
+    background-color: #9356DC;
+    border-radius: 100%;
+    padding: 13px;
+    padding-top: 8px;
+    width: 33px;
+    height: 35px;
+    box-sizing: border-box;
+    margin-right: 5px;
+    margin-left: -10px;
 
-    .grey
-    {
-        color: #7E7E7E;
-    }
+}
 
-    .card:hover .grey
-    {
-        color: #9356DC;
-    }
+.grey {
+    color: #7E7E7E;
+}
 
-    /* RESTAURANTS */
+.card:hover .grey {
+    color: #9356DC;
+}
 
-    .Restaurants
-    {
-        background-color: #EAEAEA;
-        padding-bottom: 50px;
-        display: flex;
-        flex-direction: column;
-    }
+/* RESTAURANTS */
 
-    .Restaurants p
-    {
-        margin: 0;
-    }
+.Restaurants {
+    background-color: #EAEAEA;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
 
-    .Restaurants h2
-    {
-        padding: 40px 0 27px 22px;
-        margin-top: 0;
-    }
+.Restaurants p {
+    margin: 0;
+}
 
-    .Restaurants > div
-    {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        flex-grow: 1;
-        flex:100%;
-        padding-right: 16px;
-    }
+.Restaurants h2 {
+    padding: 40px 0 27px 22px;
+    margin-top: 0;
+}
 
-    .Restaurants > div > div.Card
-    {
-        width: 100%;
-    }
+.Restaurants>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex: 100%;
+    padding-right: 16px;
+}
 
-    .Card
-    {
-        background: #FFFFFF;
-        box-shadow:rgb(149 157 165 / 20%) 0px 8px 24px;;
-        border-radius: 15px;
-        width: 100%;
-        margin-bottom: 20px;
-        position: relative;
-        margin-left: 15px;
-        display: flex;
-        flex-direction: column;
-        transition:.6s all;
-    }
+.Restaurants>div>div.Card {
+    width: 100%;
+}
 
-    .Card:hover
-    {
-        box-shadow: 0px 4px 15px #EAEAEA;
-    }
+.Card {
+    background: #FFFFFF;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    ;
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: .6s all;
+}
 
-    .Card img
-    {
-        display: inline-block;
-        position: relative;
-        object-fit: cover;
-        width: 100%;
-        border-radius: 15px 15px 0 0;
-    }
+.Card:hover {
+    box-shadow: 0px 4px 15px #EAEAEA;
+}
 
-    .card-texte
-    {
-        padding: 0 0 15px 15px;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
+.Card img {
+    display: inline-block;
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
 
-    .card-texte h3
-    {
-        margin-bottom: -15px;
-    }
+.card-texte {
+    padding: 0 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
-    .icone
-    {
-        display: flex;
-        right: -80%;
-        position: relative;
-    }
+.card-texte h3 {
+    margin-bottom: -15px;
+}
 
-    .heart-vide
-    {
-        position: relative;
-        width: 21.68px;
-        height: 21px;
-        font-size: 31px;
-    }
+.icone {
+    display: flex;
+    right: -80%;
+    position: relative;
+}
 
-    .heart-plein
-    {
-        position: absolute;
-        opacity: 0%;
-        width: 100%;
-        font-size: 31px;
-        transition:.6s all;
-    }
+.heart-vide {
+    position: relative;
+    width: 21.68px;
+    height: 21px;
+    font-size: 31px;
+}
 
-    .heart-plein:hover
-    {
-        opacity: 100%;
-        background: linear-gradient(181deg, #9356DC -5.2%, #FF79DA 110.74%);
-        background-clip: border-box;
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
+.heart-plein {
+    position: absolute;
+    opacity: 0%;
+    width: 100%;
+    font-size: 31px;
+    transition: .6s all;
+}
 
-    }
+.heart-plein:hover {
+    opacity: 100%;
+    background: linear-gradient(181deg, #9356DC -5.2%, #FF79DA 110.74%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 
-    .new, .new2
-    {
-        width: 80px;
-        height: 29px;
-        position: absolute;
-        left: 68%;
-        Top: 7%;
-        background-color: #99E2D0;
-        padding: 3px 10px;
-    }
+}
 
-    .new p, .new2 p
-    {
-        color: #008766;
-        margin-left: 8px;
-        font-size: 17px;
-        margin-top: 3px;
-    }
+.new,
+.new2 {
+    width: 80px;
+    height: 29px;
+    position: absolute;
+    left: 68%;
+    Top: 7%;
+    background-color: #99E2D0;
+    padding: 3px 10px;
+}
 
-    /* FOOTER */
+.new p,
+.new2 p {
+    color: #008766;
+    margin-left: 8px;
+    font-size: 17px;
+    margin-top: 3px;
+}
 
-    .Footer
-    {
-        background-color: #353535;
-        color: #FFFFFF;
-        padding: 35px 0;
-        width: 100%;
-    }
+/* FOOTER */
 
-    .Footer img
-    {
-        filter: invert(100%);
-    }
+.Footer {
+    background-color: #353535;
+    color: #FFFFFF;
+    padding: 35px 0;
+    width: 100%;
+}
 
-    .Footer p
-    {
-        margin-top: 0;
-        margin-left: 37px;
-    }
+.Footer img {
+    filter: invert(100%);
+}
 
-    .Footer ul
-    {
-        list-style-type: none;
-        display: flex;
-        gap: 15px;
-        flex-direction: column;
-    }
+.Footer p {
+    margin-top: 0;
+    margin-left: 37px;
+}
 
-    .Footer a
-    {
-        text-decoration: none;
-        color: #FFFFFF;
-    }
+.Footer ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
 
-    .fa-utensils 
-    {
-        margin-right: 10px;
-    }
+.Footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
-    .fa-handshake-angle
-    {
-        margin-right: 8px;
-    }
+.fa-utensils {
+    margin-right: 10px;
+}
+
+.fa-handshake-angle {
+    margin-right: 8px;
+}
 
 /* TABLETTE */
 
-@media all and (min-width: 768px) and (max-width: 1569px)
-{
-   .Footer
-   {
-    display: flex;
-    flex-direction: row-reverse;
-    padding-left: 23px;
-    padding-right: 61px;
-    padding: 0;
-    padding-bottom: 100px;
-    padding-top: 70px;
-   }
-   
-    .Footer ul
-    {
+@media all and (min-width: 768px) and (max-width: 1569px) {
+    .Footer {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 23px;
+        padding-right: 61px;
+        padding: 0;
+        padding-bottom: 100px;
+        padding-top: 70px;
+    }
+
+    .Footer ul {
         flex-direction: row;
     }
 
-    .Footer p
-    {
+    .Footer p {
         padding-top: 0;
         margin-right: 31px;
         margin-left: 69px;
@@ -390,62 +348,53 @@
 
 /* DESKTOP */
 
-@media all and (min-width: 1930px)
-{
-    .Fonctionnement
-    {
+@media all and (min-width: 1930px) {
+    .Fonctionnement {
         display: flex;
         flex-direction: column;
         margin-left: 381px;
         margin-right: 551px;
     }
 
-    .Fonctionnement ul
-    {
+    .Fonctionnement ul {
         width: 98%;
         flex-direction: row;
         gap: 47px;
     }
 
-    .Restaurants h2
-    {
+    .Restaurants h2 {
         padding-left: 244px;
     }
 
-    .Restaurants > div > div.Card
-    {
+    .Restaurants>div>div.Card {
         width: 24%;
-    } 
+    }
 
-    .Restaurants > div
-    {
+    .Restaurants>div {
         padding-left: 227px;
     }
 
 
-    .Footer
-    {
-     display: flex;
-     flex-direction: row-reverse;
-     padding-left: 23px;
-     padding-right: 61px;
-     padding: 0;
-     padding-bottom: 100px;
-     padding-top: 70px;
+    .Footer {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 23px;
+        padding-right: 61px;
+        padding: 0;
+        padding-bottom: 100px;
+        padding-top: 70px;
     }
 
-     .Footer ul
-     {
-         flex-direction: row;
-         gap: 66px;
-     }
-     
-     .Footer p
-     {
-         padding-top: 0;
-         margin-right: 31px;
-         margin-left: 69px;
-         display: flex;
-         align-items: center;
-     }
+    .Footer ul {
+        flex-direction: row;
+        gap: 66px;
+    }
+
+    .Footer p {
+        padding-top: 0;
+        margin-right: 31px;
+        margin-left: 69px;
+        display: flex;
+        align-items: center;
+    }
 }
