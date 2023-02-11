@@ -1,7 +1,7 @@
 /* MOBILE */
 
 body {
-    min-width: 200px;
+    min-width: 341px;
     margin: 0;
 }
 
@@ -69,7 +69,7 @@ div.entete>div.enteteLogo {
     padding-left: 15px;
     font-size: 31px;
     font-family: "Shrikhand", cursive;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-style: italic;
 }
 
@@ -293,7 +293,14 @@ div.Footer>ul>li {
 
 /* TABLETTE */
 
-@media all and (min-width: 768px) and (max-width: 1929px) {
+@media all and (min-width: 768px) and (max-width: 1439px) {
+ 
+
+    .icone {
+        right: 14%;
+        top: 29px;
+    }
+
     .Footer {
         display: flex;
         flex-direction: row-reverse;
@@ -319,7 +326,7 @@ div.Footer>ul>li {
 
 /* DESKTOP */
 
-@media all and (min-width: 1930px) {
+@media all and (min-width: 1440px) {
     .menu {
         width: 67%;
         margin-left: 369px;

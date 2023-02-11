@@ -330,17 +330,13 @@ main {
 
 /* TABLETTE */
 
-@media all and (min-width: 768px) and (max-width: 1929px) {
+@media all and (min-width: 768px) and (max-width: 1439px) {
     
     .Restaurants > .Card > .card-texte > .icone
     {
         right: -90%;
     }
     
-    .new, .new2
-    {
-        left: 84%;
-    }
 
     .Footer {
         display: flex;
@@ -367,12 +363,12 @@ main {
 
 /* DESKTOP */
 
-@media all and (min-width: 1930px) {
+@media all and (min-width: 1440px) {
     .Fonctionnement {
         display: flex;
         flex-direction: column;
-        margin-left: 381px;
-        margin-right: 551px;
+        margin-left: 208px;
+        margin-right: 224px;
     }
 
     .Fonctionnement ul {
