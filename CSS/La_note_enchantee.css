@@ -292,9 +292,9 @@ div.Footer>ul>li {
     color: #FFFFFF;
 }
 
-/* TABLETTE */
+/* TABLETTE & PETIT ECRAN */ 
 
-@media all and (min-width: 768px) and (max-width: 1439px) {
+@media all and (min-width: 768px) and (max-width: 1884px) {
     
     .icone {
         right: 0%;
@@ -325,7 +325,7 @@ div.Footer>ul>li {
 
 /* DESKTOP */
 
-@media all and (min-width: 1440px) {
+@media all and (min-width: 1885px) {
     .menu {
         width: 67%;
         margin-left: 259px;
@@ -336,8 +336,8 @@ div.Footer>ul>li {
     }
 
     .icone {
-        right: 28%;
-        top: 29px;
+        right: 33%;
+        top: 33px;
     }
 
     .menu-cards {
