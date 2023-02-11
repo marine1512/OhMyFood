@@ -3,7 +3,7 @@
 html,
 body {
     font-family: 'Roboto', sans-serif;
-    min-width: 200px;
+    min-width: 375px;
     margin: 0;
 }
 
@@ -228,10 +228,17 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: -14px;
 }
 
 .card-texte h3 {
     margin-bottom: -15px;
+    font-size: 22px;
+}
+
+.card-texte p
+{
+    display: flex;
 }
 
 .icone {
@@ -269,7 +276,7 @@ main {
     width: 80px;
     height: 29px;
     position: absolute;
-    left: 69%;
+    left: 68%;
     Top: 7%;
     background-color: #99E2D0;
     padding: 3px 10px;
