@@ -68,6 +68,9 @@ div.entete>div.enteteLogo {
     display: flex;
     padding-left: 15px;
     font-size: 31px;
+    font-family: "Shrikhand", cursive;
+    font-size: 2.5rem;
+    font-style: italic;
 }
 
 .icone {
@@ -75,7 +78,7 @@ div.entete>div.enteteLogo {
     position: absolute;
     right: 7%;
     align-items: center;
-    top: 20px;
+    top: 36px;
 }
 
 .heart-vide {
@@ -126,7 +129,7 @@ article {
     overflow: hidden;
     margin-right: 21px;
     animation-name: apparition;
-    animation-duration: 3s;
+    animation-duration: 10s;
     box-shadow: 2px 2px 2px #d9d9d9;
     margin-left: 15px;
 }
