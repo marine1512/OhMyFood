@@ -76,22 +76,22 @@ div.entete>div.enteteLogo {
 .icone {
     display: flex;
     position: absolute;
-    right: 7%;
+    right: -3%;
     align-items: center;
-    top: 36px;
+    top: 35px;
 }
 
 .heart-vide {
     position: relative;
     width: 54.68px;
-    font-size: 43px;
+    font-size: 30px;
 }
 
 .heart-plein {
     position: absolute;
     opacity: 0%;
     width: 100%;
-    font-size: 43px;
+    font-size: 30px;
     transition: .6s all;
 }
 
@@ -297,8 +297,7 @@ div.Footer>ul>li {
  
 
     .icone {
-        right: 14%;
-        top: 29px;
+        right: 0%;
     }
 
     .Footer {
