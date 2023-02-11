@@ -330,7 +330,7 @@ div.Footer>ul>li {
 @media all and (min-width: 1440px) {
     .menu {
         width: 67%;
-        margin-left: 369px;
+        margin-left: 259px;
     }
 
     .menu h2 {
@@ -338,7 +338,7 @@ div.Footer>ul>li {
     }
 
     .icone {
-        right: 14%;
+        right: 28%;
         top: 29px;
     }
 

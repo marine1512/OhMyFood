@@ -103,6 +103,8 @@ div.entete>div.enteteLogo {
     color: transparent;
 }
 
+
+
 article {
     margin-top: 24px;
 }
@@ -221,6 +223,7 @@ article {
     font-size: 23px;
     position: relative;
     top: -6px;
+    transition: 0.4s ease-in-out;
 }
 
 @keyframes rotate-center {
@@ -257,7 +260,7 @@ article {
     height: 197px;
     color: #FFFFFF;
     width: 100%;
-    margin-top: 1180px;
+    margin-top: 1182px;
 }
 
 .Footer img {
@@ -328,7 +331,7 @@ div.Footer>ul>li {
 @media all and (min-width: 1440px) {
     .menu {
         width: 67%;
-        margin-left: 369px;
+        margin-left: 259px;
     }
 
     .menu h2 {
@@ -336,7 +339,7 @@ div.Footer>ul>li {
     }
 
     .icone {
-        right: 14%;
+        right: 28%;
         top: 29px;
     }
 
