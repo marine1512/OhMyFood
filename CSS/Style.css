@@ -266,7 +266,7 @@ main {
     transition: .6s ease-in-out;
 }
 
-.heart-plein:hover::before {
+.heart-plein:hover {
     opacity: 100%;
     background: linear-gradient(181deg, #9356DC -5.2%, #FF79DA 110.74%);
     -webkit-background-clip: text;
