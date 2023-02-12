@@ -198,7 +198,7 @@ article {
     border-radius: 0 15px 15px 0;
     position: absolute;
     right: -10rem;
-    transition: .5s all;
+    transition: 1s all;
     overflow: hidden;
 }
 
