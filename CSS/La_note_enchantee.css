@@ -214,6 +214,7 @@ article {
 
 .fa-circle-check {
     color: #FFFFFF;
+    font-size: 23px;
 }
 
 .cards:hover .fa-circle-check {
@@ -258,7 +259,7 @@ article {
     height: 197px;
     color: #FFFFFF;
     width: 100%;
-    margin-top: 1251px;
+    margin-top: 1265px;
 }
 
 .Footer img {
@@ -292,9 +293,9 @@ div.Footer>ul>li {
     color: #FFFFFF;
 }
 
-/* TABLETTE & PETIT ECRAN */ 
+/* TABLETTE */ 
 
-@media all and (min-width: 768px) and (max-width: 1884px) {
+@media all and (min-width: 768px) and (max-width: 1439px) {
     
     .icone {
         right: 0%;
@@ -325,7 +326,7 @@ div.Footer>ul>li {
 
 /* DESKTOP */
 
-@media all and (min-width: 1885px) {
+@media all and (min-width: 1440px) {
     .menu {
         width: 67%;
         margin-left: 259px;
@@ -336,13 +337,18 @@ div.Footer>ul>li {
     }
 
     .icone {
-        right: 33%;
+        right: 26%;
         top: 33px;
     }
 
     .menu-cards {
         padding-left: 138px;
         padding-right: 115px;
+    }
+
+    .cards h3, p
+    {
+        overflow: visible;
     }
 
     .Footer {

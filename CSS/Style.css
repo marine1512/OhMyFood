@@ -212,6 +212,10 @@ main {
 
 .Card:hover {
     box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px, rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+}
+
+.Card:hover img
+{
     filter: brightness(1.2);
 }
 
@@ -259,17 +263,17 @@ main {
     opacity: 0%;
     width: 100%;
     font-size: 31px;
-    transition: .6s all;
+    transition: .6s ease-in-out;
 }
 
-.heart-plein:hover {
+.heart-plein:hover::before {
     opacity: 100%;
     background: linear-gradient(181deg, #9356DC -5.2%, #FF79DA 110.74%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-
 }
+
 
 .new,
 .new2 {
@@ -388,6 +392,11 @@ main {
     .Restaurants>div {
         padding-left: 227px;
     }
+
+    .new, .new2
+    {
+        left: 60%;
+    } 
 
 
     .Footer {
