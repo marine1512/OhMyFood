@@ -297,7 +297,7 @@ div.Footer>ul>li {
 
 /* TABLETTE */ 
 
-@media all and (min-width: 768px) and (max-width: 1439px) {
+@media all and (min-width: 385px) and (max-width: 1439px) {
  
 
     .icone {
@@ -310,12 +310,14 @@ div.Footer>ul>li {
     }
 
     .cards:hover h3 {
-        text-overflow: visible;
+        text-overflow: ellipsis;
+        width: 11rem;
     }
     
     
     .cards:hover p {
-        text-overflow: visible;
+        text-overflow: ellipsis;
+        width: 11rem;
     }
 
     .Footer {
@@ -369,12 +371,14 @@ div.Footer>ul>li {
     }
 
     .cards:hover h3 {
-        text-overflow: visible;
+        text-overflow: ellipsis;
+        width: 11rem;
     }
     
     
     .cards:hover p {
-        text-overflow: visible;
+        text-overflow: ellipsis;
+        width: 11rem;
     }
 
     .Footer {
