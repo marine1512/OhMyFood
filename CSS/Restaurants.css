@@ -151,7 +151,7 @@ article {
 .cards h3 {
     margin-bottom: 0;
     text-overflow: ellipsis;
-    width: 13.6rem;
+    width: 15.6rem;
     display: block;
     overflow: hidden;
     white-space: nowrap;
@@ -160,7 +160,7 @@ article {
 .cards:hover h3 {
     white-space: nowrap;
     text-overflow: ellipsis;
-    width: 10rem;
+    width: 14rem;
     display: block;
     overflow: hidden;
 }
@@ -376,7 +376,23 @@ div.Footer>ul>li {
         text-overflow: ellipsis;
         width: 19.6rem;
     }
+
+    .cards:hover h3 {
+        text-overflow: ellipsis;
+        width: 19rem;
+    }
+
+    .cards h3, .cards p
+    {
+        text-overflow: ellipsis;
+        width: 22rem;
+    }
     
+    .cards:hover p
+    {
+        text-overflow: ellipsis;
+        width: 19.6rem;
+    }
 
     .Footer {
         display: flex;
