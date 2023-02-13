@@ -1,7 +1,7 @@
 /* MOBILE */
 
 body {
-    min-width: 341px;
+    min-width: 375px;
     margin: 0;
 }
 
@@ -171,7 +171,7 @@ article {
     justify-content: space-between;
     padding-right: 15px;
     text-overflow: ellipsis;
-    width: 14.6rem;
+    width: 13.6rem;
     display: block;
     overflow: hidden;
     white-space: nowrap;
@@ -323,7 +323,7 @@ div.Footer>ul>li {
 
 /* TABLETTE */ 
 
-@media all and (min-width: 449px) and (max-width: 1439px) {
+@media all and (min-width: 429px) and (max-width: 1439px) {
  
 
     .icone {
