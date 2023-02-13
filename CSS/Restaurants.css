@@ -170,6 +170,11 @@ article {
     display: flex;
     justify-content: space-between;
     padding-right: 15px;
+    text-overflow: ellipsis;
+    width: 14.6rem;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .cards:hover p {
@@ -251,6 +256,22 @@ article {
     transition: .6s all;
 }
 
+.gradientbutton-LNE {
+    color: #FFFF;
+    background: linear-gradient(356deg, #9356DC -5.2%, #FF79DA 110.74%);
+    margin-bottom: 20px;
+    padding: 0rem 4rem;
+    text-align: center;
+    width: min-content;
+    white-space: nowrap;
+    margin: 3rem auto;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px #d9d9d9;
+    transition: .6s all;
+}
+
+
+
 .gradientbutton:hover {
     background: linear-gradient(356deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(356deg, #9356DC -5.2%, #FF79DA 110.74%);
     box-shadow: 10px 5px 5px #d9d9d9;
@@ -295,6 +316,11 @@ div.Footer>ul>li {
     color: #FFFFFF;
 }
 
+.LNE
+{
+    margin-top: 1266px;
+}
+
 /* TABLETTE */ 
 
 @media all and (min-width: 449px) and (max-width: 1439px) {
@@ -318,33 +344,12 @@ div.Footer>ul>li {
     .cards:hover p {
         text-overflow: visible;
     }
-
-    .Footer {
-        display: flex;
-        flex-direction: row-reverse;
-        padding-left: 23px;
-        padding-right: 61px;
-        padding: 0;
-    }
-
-    .Footer ul {
-        flex-direction: row;
-        padding: 0;
-        gap: 22px;
-        margin-top: 94px;
-    }
-
-    .Footer p {
-        margin-right: 31px;
-        margin-left: 7px;
-        display: flex;
-        align-items: center;
-    }
 }
 
 /* DESKTOP */
 
-@media all and (min-width: 1440px) {
+@media all and (min-width: 1440px)
+{
     .menu {
         width: 67%;
         margin-left: 259px;
@@ -364,7 +369,7 @@ div.Footer>ul>li {
         padding-right: 115px;
     }
 
-    .cards h3, p
+    .cards h3, .cards p
     {
         overflow: visible;
         width: 17.6rem;
