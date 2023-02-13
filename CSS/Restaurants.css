@@ -332,17 +332,19 @@ div.Footer>ul>li {
     
     .cards h3, .cards p
     {
-        overflow: visible;
-        width: 17.6rem;
+        text-overflow: ellipsis;
+        width: 19.6rem;
     }
 
     .cards:hover h3 {
-        text-overflow: visible;
+        text-overflow: ellipsis;
+        width: 17rem;
     }
     
     
     .cards:hover p {
-        text-overflow: visible;
+        text-overflow: ellipsis;
+        width: 17rem;
     }
 }
 
@@ -371,17 +373,19 @@ div.Footer>ul>li {
 
     .cards h3, .cards p
     {
-        overflow: visible;
-        width: 17.6rem;
+        text-overflow: ellipsis;
+        width: 19.6rem;
     }
 
     .cards:hover h3 {
-        text-overflow: visible;
+        text-overflow: ellipsis;
+        width: 19rem;
     }
     
     
     .cards:hover p {
-        text-overflow: visible;
+        text-overflow: ellipsis;
+        width: 17rem;
     }
 
     .Footer {
