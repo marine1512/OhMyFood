@@ -103,6 +103,8 @@ div.entete>div.enteteLogo {
     color: transparent;
 }
 
+
+
 article {
     margin-top: 24px;
 }
@@ -156,27 +158,24 @@ article {
 }
 
 .cards:hover h3 {
+    white-space: nowrap;
     text-overflow: ellipsis;
     width: 10rem;
     display: block;
     overflow: hidden;
-    white-space: nowrap;
 }
 
 .cards p {
     margin: 0;
+    display: flex;
+    justify-content: space-between;
     padding-right: 15px;
-    text-overflow: ellipsis;
-    width: 11rem;
-    display: block;
-    overflow: hidden;
-    white-space: nowrap;
 }
 
 .cards:hover p {
     white-space: nowrap;
     text-overflow: ellipsis;
-    width: 10rem;
+    width: 12rem;
     display: block;
     overflow: hidden;
 }
@@ -225,6 +224,7 @@ article {
     font-size: 23px;
     position: relative;
     top: -6px;
+    transition: 0.4s ease-in-out;
 }
 
 @keyframes rotate-center {
@@ -261,7 +261,7 @@ article {
     height: 197px;
     color: #FFFFFF;
     width: 100%;
-    margin-top: 1183px;
+    margin-top: 1182px;
 }
 
 .Footer img {
@@ -297,10 +297,26 @@ div.Footer>ul>li {
 
 /* TABLETTE */ 
 
-@media all and (min-width: 768px) and (max-width: 1439px) {
-   
+@media all and (min-width: 449px) and (max-width: 1439px) {
+ 
+
     .icone {
         right: 0%;
+    }
+    
+    .cards h3, .cards p
+    {
+        overflow: visible;
+        width: 17.6rem;
+    }
+
+    .cards:hover h3 {
+        text-overflow: visible;
+    }
+    
+    
+    .cards:hover p {
+        text-overflow: visible;
     }
 
     .Footer {
@@ -351,10 +367,16 @@ div.Footer>ul>li {
     .cards h3, p
     {
         overflow: visible;
+        width: 17.6rem;
     }
 
-    .restaurants>.div {
-        padding-left: 227px;
+    .cards:hover h3 {
+        text-overflow: visible;
+    }
+    
+    
+    .cards:hover p {
+        text-overflow: visible;
     }
 
     .Footer {
