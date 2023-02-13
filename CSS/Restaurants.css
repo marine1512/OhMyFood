@@ -338,13 +338,13 @@ div.Footer>ul>li {
 
     .cards:hover h3 {
         text-overflow: ellipsis;
-        width: 17rem;
+        width: 19rem;
     }
     
     
     .cards:hover p {
         text-overflow: ellipsis;
-        width: 17rem;
+        width: 19rem;
     }
 }
 
@@ -376,17 +376,7 @@ div.Footer>ul>li {
         text-overflow: ellipsis;
         width: 19.6rem;
     }
-
-    .cards:hover h3 {
-        text-overflow: ellipsis;
-        width: 19rem;
-    }
     
-    
-    .cards:hover p {
-        text-overflow: ellipsis;
-        width: 17rem;
-    }
 
     .Footer {
         display: flex;
