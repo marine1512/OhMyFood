@@ -379,7 +379,7 @@ div.Footer>ul>li {
 
     .cards:hover h3 {
         text-overflow: ellipsis;
-        width: 19rem;
+        width: 22rem;
     }
 
     .cards h3, .cards p
