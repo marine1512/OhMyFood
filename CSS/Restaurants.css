@@ -160,7 +160,7 @@ article {
 .cards:hover h3 {
     white-space: nowrap;
     text-overflow: ellipsis;
-    width: 14rem;
+    width: 11.6rem;
     display: block;
     overflow: hidden;
 }
@@ -180,7 +180,7 @@ article {
 .cards:hover p {
     white-space: nowrap;
     text-overflow: ellipsis;
-    width: 12rem;
+    width: 11.6rem;
     display: block;
     overflow: hidden;
 }
