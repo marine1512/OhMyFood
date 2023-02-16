@@ -155,6 +155,7 @@ article {
     display: block;
     overflow: hidden;
     white-space: nowrap;
+    font-size: initial;
 }
 
 .cards:hover h3 {
